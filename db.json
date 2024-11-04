@@ -60,13 +60,6 @@
       "experiance": 2
     },
     {
-      "id": "7",
-      "name": "Mayur",
-      "designation": "Wordpress Developer",
-      "salary": 50000,
-      "experiance": 1
-    },
-    {
       "id": "8",
       "name": "Shreyas",
       "designation": ".Net Developer",
@@ -74,11 +67,11 @@
       "experiance": 7
     },
     {
-      "id": "9",
-      "name": "Prajyot",
-      "designation": "Data Analyst",
-      "salary": 45000,
-      "experiance": 1
+      "id": "7",
+      "name": "Mayur",
+      "designation": "Wordpress Developer",
+      "salary": 0,
+      "experiance": 0
     }
   ]
 }

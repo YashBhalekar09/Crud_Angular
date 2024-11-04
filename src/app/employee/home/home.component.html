@@ -33,11 +33,12 @@
             type="button"
             data-bs-toggle="modal"
             class="btn btn-danger btn-outline-light"
+            (click)="delete(emp.id)"
           >
             <i class="fa-solid fa-trash"></i>
           </button>
         </td>
-        <div
+        <!-- <div
           class="modal fade"
           [id]="'exampleModalLong' + emp.id"
           tabindex="-1"
@@ -75,7 +76,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </tr>
     </tbody>
   </table>
