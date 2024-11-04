@@ -72,6 +72,13 @@
       "designation": ".Net Developer",
       "salary": 50000,
       "experiance": 7
+    },
+    {
+      "id": "9",
+      "name": "Prajyot",
+      "designation": "Data Analyst",
+      "salary": 45000,
+      "experiance": 1
     }
   ]
 }
