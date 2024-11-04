@@ -1,0 +1,59 @@
+<br /><br />
+<div class="container border border-2 p-2">
+  <h2>Edit Data</h2>
+  <br />
+  <div class="row">
+    <div class="col-md col-lg-4 mt-4">
+      <img src="/assets/pic1.png" alt="" style="width: 350px;"/>
+    </div>
+    <div class="col-lg-8 col-md">
+      <form class="ms-3">
+        <div class="mb-3">
+          <label for="txtName" class="form-label fs-5">Name</label>
+          <input
+            type="text"
+            name="name"
+            [(ngModel)]="employeeForm.name"
+            class="form-control border-dark-subtle"
+            id="txtName" required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="designation" class="form-label fs-5">Designation</label>
+          <input
+            type="text"
+            name="designation"
+            [(ngModel)]="employeeForm.designation"
+            class="form-control border-dark-subtle"
+            id="designation" required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="salary" class="form-label fs-5">Salary</label>
+          <input
+            type="number"
+            name="salary"
+            [(ngModel)]="employeeForm.salary"
+            class="form-control border-dark-subtle"
+            id="salary" required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="experiance" class="form-label fs-5">Experiance</label>
+          <input
+            type="number"
+            name="experiance"
+            [(ngModel)]="employeeForm.experiance"
+            class="form-control border-dark-subtle"
+            id="experiance" required
+          />
+        </div>
+        <button type="button" (click)="update()" class="btn btn-primary">
+          Update
+        </button>
+      </form>
+    </div>
+    
+      
+  </div>
+</div>

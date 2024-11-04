@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "id": "1",
+      "name": "Yash",
+      "designation": "Java Developer",
+      "salary": 60000,
+      "experiance": 2
+    },
+    {
+      "id": "2",
+      "name": "Jay",
+      "designation": "Java Developer",
+      "salary": 60000,
+      "experiance": 3
+    },
+    {
+      "id": "3",
+      "name": "Prajyot",
+      "designation": "Data Analyst",
+      "salary": 45000,
+      "experiance": 1
+    },
+    {
+      "id": "4",
+      "name": "Shreyas",
+      "designation": ".Net Developer",
+      "salary": 46000,
+      "experiance": 2
+    },
+    {
+      "id": "5",
+      "name": "Swapnil",
+      "designation": "UX Designer",
+      "salary": 46000,
+      "experiance": 1
+    },
+    {
+      "id": "6",
+      "name": "Rajj",
+      "designation": "Business Analyst",
+      "salary": 30000,
+      "experiance": 2
+    },
+    {
+      "id": "7",
+      "name": "Mayur",
+      "designation": "Wordpress Developer",
+      "salary": 50000,
+      "experiance": 1
+    },
+    {
+      "id": "8",
+      "name": "Shreyas",
+      "designation": ".Net Developer",
+      "salary": 50000,
+      "experiance": 7
+    }
+  ]
+}

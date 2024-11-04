@@ -1,0 +1,74 @@
+<br />
+<div class="container border border-2 p-2">
+  <h2 class="mb-2 ms-3">Add Data</h2>
+  <div class="row">
+    <div class="col-md col-lg-4 mt-4">
+      <img src="/assets/Add.png" alt="" style="width: 400px;">
+    </div>
+    <div class="col-md col-lg-8">
+    <form class="ms-3">
+      <div class="mb-1">
+        <label for="txtName" class="form-label fs-5">Id </label>
+        <input
+          type="text"
+          name="id"
+          [(ngModel)]="employeeForm.id"
+          class="form-control border-dark-subtle"
+          id="txtId" 
+        />
+        <!-- <span *ngIf="submit && .controls['firstName'].touched && ContactForm.controls['firstName'].errors?.['required']">
+          * This is required</span
+        > -->
+      </div>
+      <div class="mb-1">
+        <label for="txtName" class="form-label fs-5">Name </label>
+        <input
+          type="text"
+          name="name"
+          [(ngModel)]="employeeForm.name"
+          class="form-control border-dark-subtle"
+          id="txtName" 
+        />
+      </div>
+      <div class="mb-1">
+        <label for="designation" class="form-label fs-5">Designation </label>
+        <input
+          type="text"
+          name="designation"
+          [(ngModel)]="employeeForm.designation"
+          class="form-control border-dark-subtle"
+          id="txtName" 
+        />
+      </div>
+      <div class="mb-1">
+        <label for="txtPrice" class="form-label fs-5">Salary </label>
+        <input
+          type="number"
+          name="price"
+          [(ngModel)]="employeeForm.salary"
+          class="form-control border-dark-subtle"
+          id="txtPrice" 
+        />
+      </div>
+      <div class="mb-3">
+        <label for="txtQuantity" class="form-label fs-5">Experiance </label>
+        <input
+          type="number"
+          name="quantity"
+          [(ngModel)]="employeeForm.experiance"
+          class="form-control border-dark-subtle"
+          id="txtQuantity" 
+        />
+      </div>
+      <button
+        type="button"
+        (click)="create()"
+        class="btn btn-primary btn-outline-info"
+      >
+        Add Data
+      </button>
+    </form>
+  </div>
+  
+  </div>
+</div>
