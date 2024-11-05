@@ -1,19 +1,25 @@
-<nav class="navbar navbar-expand-lg text-dark bg-primary sticky-top">
-  <div class="container">
-    <img src="./assets/Icon.png" alt="" />
 
+<nav class="navbar navbar-expand-lg navbar-expand navba text-dark bg-primary sticky-top d-flex justify-content-between">
+  <div class="container-fluid d-flex">
     <a
       class="navbar-brand fs-4 col-12 text-light fw-bold"
       style="cursor: pointer; color: #001e4b"
+      href="#"
       [routerLink]="['/employee/home']"
-      >Employee Management System</a
     >
+      <img
+        src="./assets/Icon.png"
+        alt="Logo"
+        class="d-inline-block align-text-top"
+      />
+      Employee Management System
+    </a>
   </div>
   <div class="d-flex col-3">
     <div class="col col-md offset-md-5">
       <a
         href=""
-        class="btn btn-secondary btn-outline-info"
+        class="btn btn-secondary btn-outline-info "
         [routerLink]="['/employee/create']"
         ><i class="fa-solid fa-plus"></i> Create</a
       >

@@ -26,6 +26,16 @@
     />
   </head>
   <body>
+    <div id="preloader"></div>
+
+    <script>
+      let loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        setTimeout(() => {
+          loader.style.display = "none";
+        }, 2500);
+      });
+    </script>
     <app-root></app-root>
   </body>
 </html>
