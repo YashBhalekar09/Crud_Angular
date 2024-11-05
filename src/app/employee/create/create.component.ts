@@ -12,7 +12,7 @@ export class CreateComponent {
   employeeForm: Employee = {
     id: '',
     name: '',
-    designation:'',
+    designation: '',
     salary: 0,
     experiance: 0,
   };
@@ -25,7 +25,7 @@ export class CreateComponent {
   create() {
     this.service.create(this.employeeForm).subscribe({
       next: (data) => {
-        alert("Employee Data Added...")
+        alert('Employee Data Added...');
         this.router.navigate(['employee/home']);
       },
       error: (err) => {
@@ -34,4 +34,13 @@ export class CreateComponent {
     });
   }
 
+  reset() {
+    this.employeeForm = {
+      id: '',
+      name: '',
+      designation: '',
+      salary: 0,
+      experiance: 0,
+    };
+  }
 }
